@@ -5,11 +5,15 @@ public class Cor {
     private int r;
     private int g;
     private int b;
+    
 
     public void alterarCor(int r, int g, int b, String nome){
         this.nome = nome;
         this.r = r;
         this.g = g;
         this.b = b;
+    }
+
+    public String getNome() {
     }
 }
