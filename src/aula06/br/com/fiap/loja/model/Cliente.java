@@ -1,4 +1,4 @@
-package br.com.fiap.loja.model;
+package aula06.br.com.fiap.loja.model;
 
 public class Cliente {
 
@@ -9,9 +9,25 @@ public class Cliente {
     private String telefone;
     private boolean vip;
 
+    //Construtor
+    public Cliente(String nome){
+        this.nome = nome;
+    }
+
+    public Cliente(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+
+    }
+
+    public Cliente(String nome, int idade, String telefone, boolean vip){
+        this.nome = nome;
+        this.idade = idade;
+        this.telefone = telefone;
+        this.vip = vip;
+    }
+
     //Getters e Setters
-
-
     public String getNome() {
         return nome;
     }
