@@ -14,6 +14,6 @@ public class Cor {
         this.b = b;
     }
 
-    public String getNome() {
-    }
+//    public String getNome() {
+//    }
 }

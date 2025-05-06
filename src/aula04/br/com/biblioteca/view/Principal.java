@@ -7,8 +7,8 @@ public class Principal {
         // Instanciar um livro
         Livro livro = new Livro();
         // Atribuir um título ao livro
-        livro.setTitulo(); = "Java como programar";
-        System.out.println(Livro.getTitulo());
+        livro.setTitulo("Java como programar");
+       // System.out.println(Livro.getTitulo());
 
         
     }

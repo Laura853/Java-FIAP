@@ -30,7 +30,7 @@ public class AviaoTeste {
         System.out.println(aviao.getComprimento());
         System.out.println(aviao.getPrefixo());
         System.out.println(aviao.getQuantidadeDeTurbinas());
-        System.out.println(aviao.getCor().getNome());
+//        System.out.println(aviao.getCor().getNome());
 
 
     }

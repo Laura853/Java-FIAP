@@ -9,16 +9,16 @@ public class Principal2 {
 
         //Instanciar as classes
 
-        Funcionario funcionario = new Funcionario("90876", "Fulano", "tralala");
+//        Funcionario funcionario = new Funcionario("90876", "Fulano", "tralala");
 
         Profissao profissao = new Profissao("medico");
 
 
         //Exibir dados
 
-        System.out.println("Matricula " + funcionario.getMatricula());
-        System.out.println("Nome " + funcionario.getNome());
-        System.out.println("Profissão " + funcionario.getProfissao());
+//        System.out.println("Matricula " + funcionario.getMatricula());
+//        System.out.println("Nome " + funcionario.getNome());
+//        System.out.println("Profissão " + funcionario.getProfissao());
     }
 
 }
