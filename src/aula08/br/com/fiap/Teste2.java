@@ -30,11 +30,13 @@ public class Teste2 {
 
         //Exibir o email (sem o dominio)
 
-        System.out.printf(" " + email.substring(0,9));
+       String qualquerCoisa = email.substring(0,email.indexOf("@"));
+        System.out.println("Email sem dominio");
 
         //Exibir o dominio do email
 
-        System.out.printf(" " + email.substring(9,23));
+       String dominio = email.substring(9);
+        System.out.println(dominio);
 
 
     }
