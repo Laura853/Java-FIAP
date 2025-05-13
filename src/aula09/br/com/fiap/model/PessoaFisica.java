@@ -1,6 +1,6 @@
 package aula09.br.com.fiap.model;
 
-public class PessoaFisica {
+public class PessoaFisica extends Pessoa {
    private Pessoa pessoa;
    private String cpf;
    private String rg;
