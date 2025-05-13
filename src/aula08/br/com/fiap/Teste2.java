@@ -10,7 +10,7 @@ public class Teste2 {
 
         //Validar se os emails são iguais
 
-        if (email.equals(confirmacaoEmail)){
+        if (email.equalsIgnoreCase(confirmacaoEmail)){
             System.out.println("Email confirmado!");
         } else {
             System.out.println("Emails não são iguais");
@@ -18,6 +18,24 @@ public class Teste2 {
 
         System.out.println(email);
         System.out.println(confirmacaoEmail);
+
+
+        //Retornar a posição do @ do email
+
+        System.out.printf("Posição: " + email.indexOf("@"));
+
+        //Imprimir a quantidade de caracteres do e-mail
+
+        System.out.printf("Quantidade de caracteres: " + email.length());
+
+        //Exibir o email (sem o dominio)
+
+        System.out.printf(" " + email.substring(0,9));
+
+        //Exibir o dominio do email
+
+        System.out.printf(" " + email.substring(9,23));
+
 
     }
 }
