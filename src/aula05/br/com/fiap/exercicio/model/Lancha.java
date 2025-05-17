@@ -1,44 +1,13 @@
 package aula05.br.com.fiap.exercicio.model;
 
-public class Lancha {
-    private String modelo;
-    private int quantidadeDeLugares;
-    private double comprimento;
-    private int anoFabricacao;
+public class Lancha extends Veiculo {
     private Cor cor;
     private int quantidadeDeMotores;
 
-    public String getModelo() {
-        return modelo;
+    public Lancha(String modelo, int anoFabricacao, double comprimento, int quantidadeDeLugares){
+        super(modelo, anoFabricacao, comprimento, quantidadeDeLugares);
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public int getQuantidadeDeLugares() {
-        return quantidadeDeLugares;
-    }
-
-    public void setQuantidadeDeLugares(int quantidadeDeLugares) {
-        this.quantidadeDeLugares = quantidadeDeLugares;
-    }
-
-    public double getComprimento() {
-        return comprimento;
-    }
-
-    public void setComprimento(double comprimento) {
-        this.comprimento = comprimento;
-    }
-
-    public int getAnoFabricacao() {
-        return anoFabricacao;
-    }
-
-    public void setAnoFabricacao(int anoFabricacao) {
-        this.anoFabricacao = anoFabricacao;
-    }
 
     public Cor getCor() {
         return cor;

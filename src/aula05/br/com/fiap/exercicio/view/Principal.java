@@ -7,9 +7,9 @@ import aula05.br.com.fiap.exercicio.model.Lancha;
 
 public class Principal {
     Cor cor = new Cor();
-    Carro carro = new Carro();
-    Aviao aviao = new Aviao();
-    Lancha lancha = new Lancha();
+    Carro carro = new Carro("jhskd", 5, 2022, 34);
+    Aviao aviao = new Aviao("djhdsk", 2022, 23, 4);
+    Lancha lancha = new Lancha("jadsd", 2022, 34, 2 );
 
 
 }

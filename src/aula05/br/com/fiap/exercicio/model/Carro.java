@@ -1,30 +1,15 @@
 package aula05.br.com.fiap.exercicio.model;
 
-public class Carro {
-    private String modelo;
-    private int quantidadeDeLugares;
+public class Carro extends Aviao {
     private int quantidadeDePortas;
-    private double comprimento;
-    private int anoFabricacao;
     private Cor cor;
     private String placa;
     private float motor = 1;
 
-    public String getModelo() {
-        return modelo;
+    public Carro(String modelo, int quantidadeDeLugares, int anoFabricacao, double comprimento){
+        super(modelo, quantidadeDeLugares, comprimento, anoFabricacao);
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public int getQuantidadeDeLugares() {
-        return quantidadeDeLugares;
-    }
-
-    public void setQuantidadeDeLugares(int quantidadeDeLugares) {
-        this.quantidadeDeLugares = quantidadeDeLugares;
-    }
 
     public int getQuantidadeDePortas() {
         return quantidadeDePortas;
@@ -32,22 +17,6 @@ public class Carro {
 
     public void setQuantidadeDePortas(int quantidadeDePortas) {
         this.quantidadeDePortas = quantidadeDePortas;
-    }
-
-    public double getComprimento() {
-        return comprimento;
-    }
-
-    public void setComprimento(double comprimento) {
-        this.comprimento = comprimento;
-    }
-
-    public int getAnoFabricacao() {
-        return anoFabricacao;
-    }
-
-    public void setAnoFabricacao(int anoFabricacao) {
-        this.anoFabricacao = anoFabricacao;
     }
 
     public Cor getCor() {
